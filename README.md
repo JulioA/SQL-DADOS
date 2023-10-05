@@ -2,11 +2,11 @@
 Tratamento de Dados utilizando SQL
 
 
-Esses dados foram extraidos do Kaggle, uma plataforma usada para treino, desafios e com muitas bases de dados. Estou utilizando o SQLITE online para tratamente desses dados. Vamos descobrir alguns dados e trata-los.
+Esses dados foram extraidos do Kaggle, uma plataforma usada para treino, desafios e com muitas bases de dados. Estou utilizando o SQLITE online para tratamento desses dados. Vamos descobrir alguns dados e trata-los.
 
 ![Port1](https://github.com/JulioA/SQL-DADOS/assets/146854621/3d3e0d23-346e-4a22-8b1d-c8036a7b4c2c)
 
--Primeiro descobri a média de preço de todos os produtos, com marca, tipo, armazenamento. Porém, estes dados estavam em rupias indianas, então fiz a conversão deles
+-Primeiro descobri a média de preço de todos os produtos, como marca, tipo, armazenamento. Porém, estes dados estavam em rupias indianas, então fiz a conversão deles
 
 ![Port2](https://github.com/JulioA/SQL-DADOS/assets/146854621/67f108a9-6e18-41cc-aa24-6d2e7d1cf7d5)
 ![Port3](https://github.com/JulioA/SQL-DADOS/assets/146854621/4b895f7f-24be-4004-b8b7-f4333124cd1a)
@@ -22,7 +22,7 @@ Esses dados foram extraidos do Kaggle, uma plataforma usada para treino, desafio
 
 -Após isso crei uma case, que caso fosse 'lenovo', retornaria como 'Lenovo' caso nenhum dos dois, retornaria como brand (marca). E agrupei por CASE.
 
--Depois do comando case, observamos que o ticket médio de 'Lenovo' era na verdade 45136. Isso pode ocorrer quando o sistema é case-sensitive, por isso tomamos cuidado em relação a isso.
+-Depois do comando case, observamos que o ticket médio de 'Lenovo' era na verdade 45136. Isso pode ocorrer quando o sistema é case-sensitive ou são apenas produtos diferentes alocados por uma mesma marca, por isso tomamos cuidado em relação à isso.
 
 ![Port7](https://github.com/JulioA/SQL-DADOS/assets/146854621/bdd0a85a-2774-4c13-8407-eaeb7d1d1dd7)
 ![Port8](https://github.com/JulioA/SQL-DADOS/assets/146854621/69e56944-b295-4990-a37a-518682fbde12)
