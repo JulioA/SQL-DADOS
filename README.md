@@ -4,7 +4,8 @@ Tratamento de Dados utilizando SQL
 Esses dados foram extraidos do Kaggle, uma plataforma usada para treino, desafios e com muitas bases de dados. Estou utilizando o SQLITE online para tratamente desses dados. Vamos descobrir alguns dados e trata-los.
 
 -Primeiro descobri a média de preço de todos os produtos, com marca, tipo, armazenamento. Porém, estes dados estavam em rupias indianas, então fiz a conversão deles.
--Depois de convertidos, crie uma view para melhorar a análise. Ordenei por media de preço desc.
+
+-Depois de convertidos, criei uma view para melhorar a análise. Ordenei por media de preço desc.
 
 -Durante a tratativa desses dados, notei que Lenovo aparecia como 'lenovo' e 'Lenovo', fazendo com que o preço médio estivesse errado, pois 'lenovo' tinha um ticket médio muito maior que 'Lenovo'.
 
